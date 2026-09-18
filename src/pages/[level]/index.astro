@@ -1,0 +1,32 @@
+---
+import Base from '../../layouts/Base.astro';
+import { LEVELS, STAGES_PER_LEVEL, stageHasStories } from '../../lib/stories.js';
+
+export function getStaticPaths() {
+  return LEVELS.map((level) => ({ params: { level } }));
+}
+
+const { level } = Astro.params;
+const stages = Array.from({ length: STAGES_PER_LEVEL }, (_, i) => i + 1).map((stage) => ({
+  stage,
+  active: stageHasStories(level, stage),
+}));
+---
+<Base title={`${level.toUpperCase()} · JLPT Reader`}>
+  <p class="crumbs"><a href="/">Levels</a> / {level.toUpperCase()}</p>
+  <h1>{level.toUpperCase()} stages</h1>
+  <div class="card-list">
+    {stages.map(({ stage, active }) => (
+      active ? (
+        <a class="card" href={`/${level}/${stage}/`}>
+          <h3>Stage {stage}</h3>
+        </a>
+      ) : (
+        <div class="card" style="opacity:0.45; pointer-events:none;">
+          <h3>Stage {stage}</h3>
+          <p>No stories yet</p>
+        </div>
+      )
+    ))}
+  </div>
+</Base>

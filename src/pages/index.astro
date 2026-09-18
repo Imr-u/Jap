@@ -1,0 +1,30 @@
+---
+import Base from '../layouts/Base.astro';
+import { LEVELS, stageHasStories, STAGES_PER_LEVEL } from '../lib/stories.js';
+
+const levelInfo = LEVELS.map((level) => {
+  const active = Array.from({ length: STAGES_PER_LEVEL }, (_, i) => i + 1).some((stage) =>
+    stageHasStories(level, stage)
+  );
+  return { level, active };
+});
+---
+<Base title="JLPT Reader">
+  <h1>Read your way through JLPT</h1>
+  <p>Graded Japanese reading practice, from N5 to N1.</p>
+  <div class="card-list">
+    {levelInfo.map(({ level, active }) => (
+      active ? (
+        <a class="card" href={`/${level}/`}>
+          <h3>{level.toUpperCase()}</h3>
+          <p>Stories and articles graded for {level.toUpperCase()}</p>
+        </a>
+      ) : (
+        <div class="card" style="opacity:0.45; pointer-events:none;">
+          <h3>{level.toUpperCase()}</h3>
+          <p>Coming soon</p>
+        </div>
+      )
+    ))}
+  </div>
+</Base>

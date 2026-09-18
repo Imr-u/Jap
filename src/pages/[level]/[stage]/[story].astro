@@ -1,0 +1,202 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { allStoryParams, getStory } from '../../../lib/stories.js';
+
+export function getStaticPaths() {
+  return allStoryParams();
+}
+
+const { level, stage, story: storyId } = Astro.params;
+const story = getStory(level, stage, storyId);
+if (!story) {
+  throw new Error(`Story not found: ${level}/${stage}/${storyId}`);
+}
+---
+<Base title={`${story.title} · JLPT Reader`}>
+  <p class="crumbs">
+    <a href="/">Levels</a> / <a href={`/${level}/`}>{level.toUpperCase()}</a> /
+    <a href={`/${level}/${stage}/`}>Stage {stage}</a> / {story.title}
+  </p>
+
+  <div class="reader-controls">
+    <label class="toggle">
+      <input type="checkbox" id="furigana-toggle" checked />
+      Furigana
+    </label>
+  </div>
+
+  <h1 class="story-title">{story.title}</h1>
+
+  <p class="story-text" id="story-text">
+    {story.tokens.map((t, i) => (
+      t.pos === 'punct' ? (
+        <span class="punct">{t.surface}</span>
+      ) : (
+        <button
+          type="button"
+          class="word"
+          data-index={i}
+          data-romaji={t.romaji}
+          data-dict={t.dictForm}
+          data-pos={t.pos}
+          data-gloss={t.gloss}
+        >
+          <ruby>{t.surface}<rt>{t.furigana}</rt></ruby>
+        </button>
+      )
+    ))}
+  </p>
+
+  <div id="popover" class="popover" hidden>
+    <div class="popover-word"></div>
+    <div class="popover-reading"></div>
+    <div class="popover-gloss"></div>
+    <div class="popover-pos"></div>
+  </div>
+
+  <div class="translation-block">
+    <button type="button" id="translation-toggle">Show full translation</button>
+    <p id="translation-text" hidden>{story.translation}</p>
+  </div>
+</Base>
+
+<style>
+  .reader-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+  .toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+  }
+  .story-title {
+    margin-bottom: 1.5rem;
+  }
+  .story-text {
+    font-size: 1.4rem;
+    line-height: 2.6;
+  }
+  .word {
+    border: none;
+    background: none;
+    font: inherit;
+    padding: 0 1px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .word:hover {
+    background: #fdeceb;
+  }
+  .punct {
+    margin-right: 0.1rem;
+  }
+  ruby rt {
+    font-size: 0.55rem;
+    color: #6b6b6b;
+    user-select: none;
+  }
+  body:not(.furigana-on) ruby rt {
+    display: none;
+  }
+  .popover {
+    position: fixed;
+    max-width: 260px;
+    background: #1c1c1c;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    z-index: 20;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  }
+  .popover-word {
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  .popover-reading {
+    color: #cfcfcf;
+    margin-bottom: 0.25rem;
+  }
+  .popover-pos {
+    color: #cfcfcf;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-top: 0.25rem;
+  }
+  .translation-block {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e5e2dc;
+  }
+  #translation-toggle {
+    background: #1c1c1c;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1.1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  #translation-text {
+    margin-top: 1rem;
+    color: #333;
+  }
+</style>
+
+<script>
+  const body = document.body;
+  const furiganaToggle = document.getElementById('furigana-toggle');
+  body.classList.add('furigana-on');
+  furiganaToggle?.addEventListener('change', () => {
+    body.classList.toggle('furigana-on', furiganaToggle.checked);
+  });
+
+  const popover = document.getElementById('popover');
+  const wordButtons = document.querySelectorAll('.word');
+
+  function showPopover(btn) {
+    const rect = btn.getBoundingClientRect();
+    popover.querySelector('.popover-word').textContent = btn.textContent.trim();
+    popover.querySelector('.popover-reading').textContent = btn.dataset.romaji || '';
+    popover.querySelector('.popover-gloss').textContent = btn.dataset.gloss || '';
+    popover.querySelector('.popover-pos').textContent = btn.dataset.pos || '';
+    popover.hidden = false;
+
+    const top = rect.bottom + 8;
+    let left = rect.left;
+    const maxLeft = window.innerWidth - 280;
+    if (left > maxLeft) left = maxLeft;
+    popover.style.top = `${top}px`;
+    popover.style.left = `${left}px`;
+  }
+
+  wordButtons.forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      showPopover(btn);
+    });
+  });
+
+  document.addEventListener('click', () => {
+    popover.hidden = true;
+  });
+  popover.addEventListener('click', (e) => e.stopPropagation());
+
+  const translationToggle = document.getElementById('translation-toggle');
+  const translationText = document.getElementById('translation-text');
+  translationToggle.addEventListener('click', () => {
+    const hidden = translationText.hasAttribute('hidden');
+    if (hidden) {
+      translationText.removeAttribute('hidden');
+      translationToggle.textContent = 'Hide full translation';
+    } else {
+      translationText.setAttribute('hidden', '');
+      translationToggle.textContent = 'Show full translation';
+    }
+  });
+</script>
