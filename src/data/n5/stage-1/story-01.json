@@ -1,24 +1,201 @@
 {
   "id": "story-01",
-  "title": "友達と公園",
+  "title": "私の一日",
   "level": "n5",
   "stage": 1,
   "tokens": [
-    { "surface": "私", "furigana": "わたし", "romaji": "watashi", "dictForm": "私", "pos": "pronoun", "gloss": "I / me" },
-    { "surface": "は", "furigana": "は", "romaji": "wa", "dictForm": "は", "pos": "particle", "gloss": "topic marker" },
-    { "surface": "昨日", "furigana": "きのう", "romaji": "kinou", "dictForm": "昨日", "pos": "noun", "gloss": "yesterday" },
-    { "surface": "友達", "furigana": "ともだち", "romaji": "tomodachi", "dictForm": "友達", "pos": "noun", "gloss": "friend" },
-    { "surface": "と", "furigana": "と", "romaji": "to", "dictForm": "と", "pos": "particle", "gloss": "with / and" },
-    { "surface": "公園", "furigana": "こうえん", "romaji": "kouen", "dictForm": "公園", "pos": "noun", "gloss": "park" },
-    { "surface": "に", "furigana": "に", "romaji": "ni", "dictForm": "に", "pos": "particle", "gloss": "direction / target marker" },
-    { "surface": "行きました", "furigana": "いきました", "romaji": "ikimashita", "dictForm": "行く", "pos": "verb", "gloss": "went (polite past)" },
-    { "surface": "。", "furigana": "", "romaji": "", "dictForm": "。", "pos": "punct", "gloss": "" },
-    { "surface": "天気", "furigana": "てんき", "romaji": "tenki", "dictForm": "天気", "pos": "noun", "gloss": "weather" },
-    { "surface": "が", "furigana": "が", "romaji": "ga", "dictForm": "が", "pos": "particle", "gloss": "subject marker" },
-    { "surface": "とても", "furigana": "とても", "romaji": "totemo", "dictForm": "とても", "pos": "adverb", "gloss": "very" },
-    { "surface": "良かった", "furigana": "よかった", "romaji": "yokatta", "dictForm": "良い", "pos": "adjective", "gloss": "was good (past)" },
-    { "surface": "です", "furigana": "です", "romaji": "desu", "dictForm": "です", "pos": "copula", "gloss": "polite ending" },
-    { "surface": "。", "furigana": "", "romaji": "", "dictForm": "。", "pos": "punct", "gloss": "" }
+    {
+      "surface": "私",
+      "furigana": "わたし",
+      "romaji": "watashi",
+      "dictForm": "私",
+      "pos": "pronoun",
+      "gloss": "I / me"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "朝",
+      "furigana": "あさ",
+      "romaji": "asa",
+      "dictForm": "朝",
+      "pos": "noun",
+      "gloss": "morning"
+    },
+    {
+      "surface": "ご飯",
+      "furigana": "ごはん",
+      "romaji": "gohan",
+      "dictForm": "ご飯",
+      "pos": "noun",
+      "gloss": "meal / rice"
+    },
+    {
+      "surface": "を",
+      "furigana": "を",
+      "romaji": "wo",
+      "dictForm": "を",
+      "pos": "particle",
+      "gloss": "object marker"
+    },
+    {
+      "surface": "食べます",
+      "furigana": "たべます",
+      "romaji": "tabemasu",
+      "dictForm": "食べます",
+      "pos": "verb",
+      "gloss": "to eat"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "それから",
+      "furigana": "それから",
+      "romaji": "sorekara",
+      "dictForm": "それから",
+      "pos": "conjunction",
+      "gloss": "after that"
+    },
+    {
+      "surface": "学校",
+      "furigana": "がっこう",
+      "romaji": "gakkou",
+      "dictForm": "学校",
+      "pos": "noun",
+      "gloss": "school"
+    },
+    {
+      "surface": "に",
+      "furigana": "に",
+      "romaji": "ni",
+      "dictForm": "に",
+      "pos": "particle",
+      "gloss": "to / at / in"
+    },
+    {
+      "surface": "行きます",
+      "furigana": "いきます",
+      "romaji": "ikimasu",
+      "dictForm": "行きます",
+      "pos": "verb",
+      "gloss": "to go"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "学校",
+      "furigana": "がっこう",
+      "romaji": "gakkou",
+      "dictForm": "学校",
+      "pos": "noun",
+      "gloss": "school"
+    },
+    {
+      "surface": "で",
+      "furigana": "で",
+      "romaji": "de",
+      "dictForm": "で",
+      "pos": "particle",
+      "gloss": "at / by means of"
+    },
+    {
+      "surface": "友達",
+      "furigana": "ともだち",
+      "romaji": "tomodachi",
+      "dictForm": "友達",
+      "pos": "noun",
+      "gloss": "friend"
+    },
+    {
+      "surface": "と",
+      "furigana": "と",
+      "romaji": "to",
+      "dictForm": "と",
+      "pos": "particle",
+      "gloss": "and / with"
+    },
+    {
+      "surface": "話します",
+      "furigana": "はなします",
+      "romaji": "hanashimasu",
+      "dictForm": "話します",
+      "pos": "verb",
+      "gloss": "to speak"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "友達",
+      "furigana": "ともだち",
+      "romaji": "tomodachi",
+      "dictForm": "友達",
+      "pos": "noun",
+      "gloss": "friend"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "良い",
+      "furigana": "いい",
+      "romaji": "ii",
+      "dictForm": "良い",
+      "pos": "adjective",
+      "gloss": "good"
+    },
+    {
+      "surface": "人",
+      "furigana": "ひと",
+      "romaji": "hito",
+      "dictForm": "人",
+      "pos": "noun",
+      "gloss": "person"
+    },
+    {
+      "surface": "です",
+      "furigana": "です",
+      "romaji": "desu",
+      "dictForm": "です",
+      "pos": "copula",
+      "gloss": "polite ending"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    }
   ],
-  "translation": "Yesterday I went to the park with a friend. The weather was very nice."
+  "translation": "I eat breakfast in the morning. After that, I go to school. I talk with my friend at school. My friend is a good person."
 }

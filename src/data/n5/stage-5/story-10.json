@@ -1,0 +1,217 @@
+{
+  "id": "story-10",
+  "title": "新しいコンピューター",
+  "level": "n5",
+  "stage": 5,
+  "tokens": [
+    {
+      "surface": "会社",
+      "furigana": "かいしゃ",
+      "romaji": "kaisha",
+      "dictForm": "会社",
+      "pos": "noun",
+      "gloss": "company"
+    },
+    {
+      "surface": "の",
+      "furigana": "の",
+      "romaji": "no",
+      "dictForm": "の",
+      "pos": "particle",
+      "gloss": "possessive marker"
+    },
+    {
+      "surface": "コンピューター",
+      "furigana": "コンピューター",
+      "romaji": "konpyuutaa",
+      "dictForm": "コンピューター",
+      "pos": "noun",
+      "gloss": "computer"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "古い",
+      "furigana": "ふるい",
+      "romaji": "furui",
+      "dictForm": "古い",
+      "pos": "adjective",
+      "gloss": "old"
+    },
+    {
+      "surface": "です",
+      "furigana": "です",
+      "romaji": "desu",
+      "dictForm": "です",
+      "pos": "copula",
+      "gloss": "polite ending"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "新しい",
+      "furigana": "あたらしい",
+      "romaji": "atarashii",
+      "dictForm": "新しい",
+      "pos": "adjective",
+      "gloss": "new"
+    },
+    {
+      "surface": "コンピューター",
+      "furigana": "コンピューター",
+      "romaji": "konpyuutaa",
+      "dictForm": "コンピューター",
+      "pos": "noun",
+      "gloss": "computer"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "高い",
+      "furigana": "たかい",
+      "romaji": "takai",
+      "dictForm": "高い",
+      "pos": "adjective",
+      "gloss": "high / expensive"
+    },
+    {
+      "surface": "です",
+      "furigana": "です",
+      "romaji": "desu",
+      "dictForm": "です",
+      "pos": "copula",
+      "gloss": "polite ending"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "同僚",
+      "furigana": "どうりょう",
+      "romaji": "douryou",
+      "dictForm": "同僚",
+      "pos": "noun",
+      "gloss": "colleague"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "新しい",
+      "furigana": "あたらしい",
+      "romaji": "atarashii",
+      "dictForm": "新しい",
+      "pos": "adjective",
+      "gloss": "new"
+    },
+    {
+      "surface": "コンピューター",
+      "furigana": "コンピューター",
+      "romaji": "konpyuutaa",
+      "dictForm": "コンピューター",
+      "pos": "noun",
+      "gloss": "computer"
+    },
+    {
+      "surface": "を",
+      "furigana": "を",
+      "romaji": "wo",
+      "dictForm": "を",
+      "pos": "particle",
+      "gloss": "object marker"
+    },
+    {
+      "surface": "使います",
+      "furigana": "つかいます",
+      "romaji": "tsukaimasu",
+      "dictForm": "使います",
+      "pos": "verb",
+      "gloss": "to use"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "私",
+      "furigana": "わたし",
+      "romaji": "watashi",
+      "dictForm": "私",
+      "pos": "pronoun",
+      "gloss": "I / me"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "疲れます",
+      "furigana": "つかれます",
+      "romaji": "tsukaremasu",
+      "dictForm": "疲れます",
+      "pos": "verb",
+      "gloss": "to get tired"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "休みます",
+      "furigana": "やすみます",
+      "romaji": "yasumimasu",
+      "dictForm": "休みます",
+      "pos": "verb",
+      "gloss": "to rest"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    }
+  ],
+  "translation": "The company's computer is old. The new computer is expensive. My colleague uses the new computer. I get tired. I rest."
+}

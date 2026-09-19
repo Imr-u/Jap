@@ -1,0 +1,217 @@
+{
+  "id": "story-05",
+  "title": "公園への道",
+  "level": "n5",
+  "stage": 3,
+  "tokens": [
+    {
+      "surface": "今日",
+      "furigana": "きょう",
+      "romaji": "kyou",
+      "dictForm": "今日",
+      "pos": "noun",
+      "gloss": "today"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "電車",
+      "furigana": "でんしゃ",
+      "romaji": "densha",
+      "dictForm": "電車",
+      "pos": "noun",
+      "gloss": "train"
+    },
+    {
+      "surface": "で",
+      "furigana": "で",
+      "romaji": "de",
+      "dictForm": "で",
+      "pos": "particle",
+      "gloss": "at / by means of"
+    },
+    {
+      "surface": "公園",
+      "furigana": "こうえん",
+      "romaji": "kouen",
+      "dictForm": "公園",
+      "pos": "noun",
+      "gloss": "park"
+    },
+    {
+      "surface": "に",
+      "furigana": "に",
+      "romaji": "ni",
+      "dictForm": "に",
+      "pos": "particle",
+      "gloss": "to / at / in"
+    },
+    {
+      "surface": "行きます",
+      "furigana": "いきます",
+      "romaji": "ikimasu",
+      "dictForm": "行きます",
+      "pos": "verb",
+      "gloss": "to go"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "公園",
+      "furigana": "こうえん",
+      "romaji": "kouen",
+      "dictForm": "公園",
+      "pos": "noun",
+      "gloss": "park"
+    },
+    {
+      "surface": "で",
+      "furigana": "で",
+      "romaji": "de",
+      "dictForm": "で",
+      "pos": "particle",
+      "gloss": "at / by means of"
+    },
+    {
+      "surface": "犬",
+      "furigana": "いぬ",
+      "romaji": "inu",
+      "dictForm": "犬",
+      "pos": "noun",
+      "gloss": "dog"
+    },
+    {
+      "surface": "と",
+      "furigana": "と",
+      "romaji": "to",
+      "dictForm": "と",
+      "pos": "particle",
+      "gloss": "and / with"
+    },
+    {
+      "surface": "鳥",
+      "furigana": "とり",
+      "romaji": "tori",
+      "dictForm": "鳥",
+      "pos": "noun",
+      "gloss": "bird"
+    },
+    {
+      "surface": "を",
+      "furigana": "を",
+      "romaji": "wo",
+      "dictForm": "を",
+      "pos": "particle",
+      "gloss": "object marker"
+    },
+    {
+      "surface": "見ます",
+      "furigana": "みます",
+      "romaji": "mimasu",
+      "dictForm": "見ます",
+      "pos": "verb",
+      "gloss": "to see / watch"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "魚",
+      "furigana": "さかな",
+      "romaji": "sakana",
+      "dictForm": "魚",
+      "pos": "noun",
+      "gloss": "fish"
+    },
+    {
+      "surface": "も",
+      "furigana": "も",
+      "romaji": "mo",
+      "dictForm": "も",
+      "pos": "particle",
+      "gloss": "also / too"
+    },
+    {
+      "surface": "います",
+      "furigana": "います",
+      "romaji": "imasu",
+      "dictForm": "います",
+      "pos": "verb",
+      "gloss": "there is (living thing)"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "この",
+      "furigana": "この",
+      "romaji": "kono",
+      "dictForm": "この",
+      "pos": "determiner",
+      "gloss": "this (+noun)"
+    },
+    {
+      "surface": "公園",
+      "furigana": "こうえん",
+      "romaji": "kouen",
+      "dictForm": "公園",
+      "pos": "noun",
+      "gloss": "park"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "面白い",
+      "furigana": "おもしろい",
+      "romaji": "omoshiroi",
+      "dictForm": "面白い",
+      "pos": "adjective",
+      "gloss": "interesting"
+    },
+    {
+      "surface": "です",
+      "furigana": "です",
+      "romaji": "desu",
+      "dictForm": "です",
+      "pos": "copula",
+      "gloss": "polite ending"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    }
+  ],
+  "translation": "Today I go to the park by train. I see a dog and a bird at the park. There is also fish. This park is interesting."
+}

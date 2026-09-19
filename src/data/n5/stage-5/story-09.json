@@ -1,0 +1,281 @@
+{
+  "id": "story-09",
+  "title": "会社の一日",
+  "level": "n5",
+  "stage": 5,
+  "tokens": [
+    {
+      "surface": "私",
+      "furigana": "わたし",
+      "romaji": "watashi",
+      "dictForm": "私",
+      "pos": "pronoun",
+      "gloss": "I / me"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "会社",
+      "furigana": "かいしゃ",
+      "romaji": "kaisha",
+      "dictForm": "会社",
+      "pos": "noun",
+      "gloss": "company"
+    },
+    {
+      "surface": "で",
+      "furigana": "で",
+      "romaji": "de",
+      "dictForm": "で",
+      "pos": "particle",
+      "gloss": "at / by means of"
+    },
+    {
+      "surface": "働きます",
+      "furigana": "はたらきます",
+      "romaji": "hatarakimasu",
+      "dictForm": "働きます",
+      "pos": "verb",
+      "gloss": "to work"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "今日",
+      "furigana": "きょう",
+      "romaji": "kyou",
+      "dictForm": "今日",
+      "pos": "noun",
+      "gloss": "today"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "上司",
+      "furigana": "じょうし",
+      "romaji": "joushi",
+      "dictForm": "上司",
+      "pos": "noun",
+      "gloss": "boss"
+    },
+    {
+      "surface": "と",
+      "furigana": "と",
+      "romaji": "to",
+      "dictForm": "と",
+      "pos": "particle",
+      "gloss": "and / with"
+    },
+    {
+      "surface": "同僚",
+      "furigana": "どうりょう",
+      "romaji": "douryou",
+      "dictForm": "同僚",
+      "pos": "noun",
+      "gloss": "colleague"
+    },
+    {
+      "surface": "と",
+      "furigana": "と",
+      "romaji": "to",
+      "dictForm": "と",
+      "pos": "particle",
+      "gloss": "and / with"
+    },
+    {
+      "surface": "ミーティング",
+      "furigana": "ミーティング",
+      "romaji": "miitingu",
+      "dictForm": "ミーティング",
+      "pos": "noun",
+      "gloss": "meeting"
+    },
+    {
+      "surface": "が",
+      "furigana": "が",
+      "romaji": "ga",
+      "dictForm": "が",
+      "pos": "particle",
+      "gloss": "subject marker"
+    },
+    {
+      "surface": "あります",
+      "furigana": "あります",
+      "romaji": "arimasu",
+      "dictForm": "あります",
+      "pos": "verb",
+      "gloss": "there is (thing)"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "ミーティング",
+      "furigana": "ミーティング",
+      "romaji": "miitingu",
+      "dictForm": "ミーティング",
+      "pos": "noun",
+      "gloss": "meeting"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "忙しい",
+      "furigana": "いそがしい",
+      "romaji": "isogashii",
+      "dictForm": "忙しい",
+      "pos": "adjective",
+      "gloss": "busy"
+    },
+    {
+      "surface": "です",
+      "furigana": "です",
+      "romaji": "desu",
+      "dictForm": "です",
+      "pos": "copula",
+      "gloss": "polite ending"
+    },
+    {
+      "surface": "が",
+      "furigana": "が",
+      "romaji": "ga",
+      "dictForm": "が",
+      "pos": "conjunction",
+      "gloss": "but"
+    },
+    {
+      "surface": "大切",
+      "furigana": "たいせつ",
+      "romaji": "taisetsu",
+      "dictForm": "大切",
+      "pos": "adjective",
+      "gloss": "important"
+    },
+    {
+      "surface": "です",
+      "furigana": "です",
+      "romaji": "desu",
+      "dictForm": "です",
+      "pos": "copula",
+      "gloss": "polite ending"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "会社",
+      "furigana": "かいしゃ",
+      "romaji": "kaisha",
+      "dictForm": "会社",
+      "pos": "noun",
+      "gloss": "company"
+    },
+    {
+      "surface": "で",
+      "furigana": "で",
+      "romaji": "de",
+      "dictForm": "で",
+      "pos": "particle",
+      "gloss": "at / by means of"
+    },
+    {
+      "surface": "メール",
+      "furigana": "メール",
+      "romaji": "meeru",
+      "dictForm": "メール",
+      "pos": "noun",
+      "gloss": "email"
+    },
+    {
+      "surface": "を",
+      "furigana": "を",
+      "romaji": "wo",
+      "dictForm": "を",
+      "pos": "particle",
+      "gloss": "object marker"
+    },
+    {
+      "surface": "書きます",
+      "furigana": "かきます",
+      "romaji": "kakimasu",
+      "dictForm": "書きます",
+      "pos": "verb",
+      "gloss": "to write"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "電話",
+      "furigana": "でんわ",
+      "romaji": "denwa",
+      "dictForm": "電話",
+      "pos": "noun",
+      "gloss": "telephone"
+    },
+    {
+      "surface": "も",
+      "furigana": "も",
+      "romaji": "mo",
+      "dictForm": "も",
+      "pos": "particle",
+      "gloss": "also / too"
+    },
+    {
+      "surface": "使います",
+      "furigana": "つかいます",
+      "romaji": "tsukaimasu",
+      "dictForm": "使います",
+      "pos": "verb",
+      "gloss": "to use"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    }
+  ],
+  "translation": "I work at the company. Today there is a meeting with my boss and colleague. The meeting is busy, but important. I write email at the company. I also use the phone."
+}

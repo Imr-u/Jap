@@ -1,0 +1,193 @@
+{
+  "id": "story-06",
+  "title": "朝ごはん",
+  "level": "n5",
+  "stage": 3,
+  "tokens": [
+    {
+      "surface": "毎朝",
+      "furigana": "まいあさ",
+      "romaji": "maiasa",
+      "dictForm": "毎朝",
+      "pos": "noun",
+      "gloss": "every morning"
+    },
+    {
+      "surface": "、",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "、",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "私",
+      "furigana": "わたし",
+      "romaji": "watashi",
+      "dictForm": "私",
+      "pos": "pronoun",
+      "gloss": "I / me"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "パン",
+      "furigana": "パン",
+      "romaji": "pan",
+      "dictForm": "パン",
+      "pos": "noun",
+      "gloss": "bread"
+    },
+    {
+      "surface": "を",
+      "furigana": "を",
+      "romaji": "wo",
+      "dictForm": "を",
+      "pos": "particle",
+      "gloss": "object marker"
+    },
+    {
+      "surface": "食べます",
+      "furigana": "たべます",
+      "romaji": "tabemasu",
+      "dictForm": "食べます",
+      "pos": "verb",
+      "gloss": "to eat"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "コーヒー",
+      "furigana": "コーヒー",
+      "romaji": "kouhii",
+      "dictForm": "コーヒー",
+      "pos": "noun",
+      "gloss": "coffee"
+    },
+    {
+      "surface": "も",
+      "furigana": "も",
+      "romaji": "mo",
+      "dictForm": "も",
+      "pos": "particle",
+      "gloss": "also / too"
+    },
+    {
+      "surface": "飲みます",
+      "furigana": "のみます",
+      "romaji": "nomimasu",
+      "dictForm": "飲みます",
+      "pos": "verb",
+      "gloss": "to drink"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "お茶",
+      "furigana": "おちゃ",
+      "romaji": "ocha",
+      "dictForm": "お茶",
+      "pos": "noun",
+      "gloss": "tea"
+    },
+    {
+      "surface": "も",
+      "furigana": "も",
+      "romaji": "mo",
+      "dictForm": "も",
+      "pos": "particle",
+      "gloss": "also / too"
+    },
+    {
+      "surface": "飲みます",
+      "furigana": "のみます",
+      "romaji": "nomimasu",
+      "dictForm": "飲みます",
+      "pos": "verb",
+      "gloss": "to drink"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "バナナ",
+      "furigana": "バナナ",
+      "romaji": "banana",
+      "dictForm": "バナナ",
+      "pos": "noun",
+      "gloss": "banana"
+    },
+    {
+      "surface": "と",
+      "furigana": "と",
+      "romaji": "to",
+      "dictForm": "と",
+      "pos": "particle",
+      "gloss": "and / with"
+    },
+    {
+      "surface": "りんご",
+      "furigana": "りんご",
+      "romaji": "ringo",
+      "dictForm": "りんご",
+      "pos": "noun",
+      "gloss": "apple"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "安い",
+      "furigana": "やすい",
+      "romaji": "yasui",
+      "dictForm": "安い",
+      "pos": "adjective",
+      "gloss": "cheap"
+    },
+    {
+      "surface": "です",
+      "furigana": "です",
+      "romaji": "desu",
+      "dictForm": "です",
+      "pos": "copula",
+      "gloss": "polite ending"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    }
+  ],
+  "translation": "Every morning I eat bread. I also drink coffee. I also drink tea. Bananas and apples are cheap."
+}

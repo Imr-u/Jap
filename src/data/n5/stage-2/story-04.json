@@ -1,0 +1,161 @@
+{
+  "id": "story-04",
+  "title": "私の顔",
+  "level": "n5",
+  "stage": 2,
+  "tokens": [
+    {
+      "surface": "私",
+      "furigana": "わたし",
+      "romaji": "watashi",
+      "dictForm": "私",
+      "pos": "pronoun",
+      "gloss": "I / me"
+    },
+    {
+      "surface": "の",
+      "furigana": "の",
+      "romaji": "no",
+      "dictForm": "の",
+      "pos": "particle",
+      "gloss": "possessive marker"
+    },
+    {
+      "surface": "顔",
+      "furigana": "かお",
+      "romaji": "kao",
+      "dictForm": "顔",
+      "pos": "noun",
+      "gloss": "face"
+    },
+    {
+      "surface": "に",
+      "furigana": "に",
+      "romaji": "ni",
+      "dictForm": "に",
+      "pos": "particle",
+      "gloss": "to / at / in"
+    },
+    {
+      "surface": "目",
+      "furigana": "め",
+      "romaji": "me",
+      "dictForm": "目",
+      "pos": "noun",
+      "gloss": "eye"
+    },
+    {
+      "surface": "が",
+      "furigana": "が",
+      "romaji": "ga",
+      "dictForm": "が",
+      "pos": "particle",
+      "gloss": "subject marker"
+    },
+    {
+      "surface": "二つ",
+      "furigana": "ふたつ",
+      "romaji": "futatsu",
+      "dictForm": "二つ",
+      "pos": "number",
+      "gloss": "two (things)"
+    },
+    {
+      "surface": "あります",
+      "furigana": "あります",
+      "romaji": "arimasu",
+      "dictForm": "あります",
+      "pos": "verb",
+      "gloss": "there is (thing)"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "頭",
+      "furigana": "あたま",
+      "romaji": "atama",
+      "dictForm": "頭",
+      "pos": "noun",
+      "gloss": "head"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "小さい",
+      "furigana": "ちいさい",
+      "romaji": "chiisai",
+      "dictForm": "小さい",
+      "pos": "adjective",
+      "gloss": "small"
+    },
+    {
+      "surface": "です",
+      "furigana": "です",
+      "romaji": "desu",
+      "dictForm": "です",
+      "pos": "copula",
+      "gloss": "polite ending"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "足",
+      "furigana": "あし",
+      "romaji": "ashi",
+      "dictForm": "足",
+      "pos": "noun",
+      "gloss": "foot / leg"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "大きい",
+      "furigana": "おおきい",
+      "romaji": "ookii",
+      "dictForm": "大きい",
+      "pos": "adjective",
+      "gloss": "big"
+    },
+    {
+      "surface": "です",
+      "furigana": "です",
+      "romaji": "desu",
+      "dictForm": "です",
+      "pos": "copula",
+      "gloss": "polite ending"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    }
+  ],
+  "translation": "My face has two eyes. My head is small. My feet are big."
+}

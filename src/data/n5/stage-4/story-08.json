@@ -1,0 +1,233 @@
+{
+  "id": "story-08",
+  "title": "図書館まで",
+  "level": "n5",
+  "stage": 4,
+  "tokens": [
+    {
+      "surface": "私",
+      "furigana": "わたし",
+      "romaji": "watashi",
+      "dictForm": "私",
+      "pos": "pronoun",
+      "gloss": "I / me"
+    },
+    {
+      "surface": "の",
+      "furigana": "の",
+      "romaji": "no",
+      "dictForm": "の",
+      "pos": "particle",
+      "gloss": "possessive marker"
+    },
+    {
+      "surface": "家",
+      "furigana": "いえ",
+      "romaji": "ie",
+      "dictForm": "家",
+      "pos": "noun",
+      "gloss": "house / home"
+    },
+    {
+      "surface": "から",
+      "furigana": "から",
+      "romaji": "kara",
+      "dictForm": "から",
+      "pos": "particle",
+      "gloss": "from"
+    },
+    {
+      "surface": "図書館",
+      "furigana": "としょかん",
+      "romaji": "toshokan",
+      "dictForm": "図書館",
+      "pos": "noun",
+      "gloss": "library"
+    },
+    {
+      "surface": "まで",
+      "furigana": "まで",
+      "romaji": "made",
+      "dictForm": "まで",
+      "pos": "particle",
+      "gloss": "until / to"
+    },
+    {
+      "surface": "行きます",
+      "furigana": "いきます",
+      "romaji": "ikimasu",
+      "dictForm": "行きます",
+      "pos": "verb",
+      "gloss": "to go"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "図書館",
+      "furigana": "としょかん",
+      "romaji": "toshokan",
+      "dictForm": "図書館",
+      "pos": "noun",
+      "gloss": "library"
+    },
+    {
+      "surface": "で",
+      "furigana": "で",
+      "romaji": "de",
+      "dictForm": "で",
+      "pos": "particle",
+      "gloss": "at / by means of"
+    },
+    {
+      "surface": "本",
+      "furigana": "ほん",
+      "romaji": "hon",
+      "dictForm": "本",
+      "pos": "noun",
+      "gloss": "book"
+    },
+    {
+      "surface": "を",
+      "furigana": "を",
+      "romaji": "wo",
+      "dictForm": "を",
+      "pos": "particle",
+      "gloss": "object marker"
+    },
+    {
+      "surface": "読みます",
+      "furigana": "よみます",
+      "romaji": "yomimasu",
+      "dictForm": "読みます",
+      "pos": "verb",
+      "gloss": "to read"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "それから",
+      "furigana": "それから",
+      "romaji": "sorekara",
+      "dictForm": "それから",
+      "pos": "conjunction",
+      "gloss": "after that"
+    },
+    {
+      "surface": "スーパー",
+      "furigana": "スーパー",
+      "romaji": "suupaa",
+      "dictForm": "スーパー",
+      "pos": "noun",
+      "gloss": "supermarket"
+    },
+    {
+      "surface": "で",
+      "furigana": "で",
+      "romaji": "de",
+      "dictForm": "で",
+      "pos": "particle",
+      "gloss": "at / by means of"
+    },
+    {
+      "surface": "ご飯",
+      "furigana": "ごはん",
+      "romaji": "gohan",
+      "dictForm": "ご飯",
+      "pos": "noun",
+      "gloss": "meal / rice"
+    },
+    {
+      "surface": "を",
+      "furigana": "を",
+      "romaji": "wo",
+      "dictForm": "を",
+      "pos": "particle",
+      "gloss": "object marker"
+    },
+    {
+      "surface": "買います",
+      "furigana": "かいます",
+      "romaji": "kaimasu",
+      "dictForm": "買います",
+      "pos": "verb",
+      "gloss": "to buy"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "病院",
+      "furigana": "びょういん",
+      "romaji": "byouin",
+      "dictForm": "病院",
+      "pos": "noun",
+      "gloss": "hospital"
+    },
+    {
+      "surface": "の",
+      "furigana": "の",
+      "romaji": "no",
+      "dictForm": "の",
+      "pos": "particle",
+      "gloss": "possessive marker"
+    },
+    {
+      "surface": "近い",
+      "furigana": "ちかい",
+      "romaji": "chikai",
+      "dictForm": "近い",
+      "pos": "adjective",
+      "gloss": "near / close"
+    },
+    {
+      "surface": "銀行",
+      "furigana": "ぎんこう",
+      "romaji": "ginkou",
+      "dictForm": "銀行",
+      "pos": "noun",
+      "gloss": "bank"
+    },
+    {
+      "surface": "が",
+      "furigana": "が",
+      "romaji": "ga",
+      "dictForm": "が",
+      "pos": "particle",
+      "gloss": "subject marker"
+    },
+    {
+      "surface": "あります",
+      "furigana": "あります",
+      "romaji": "arimasu",
+      "dictForm": "あります",
+      "pos": "verb",
+      "gloss": "there is (thing)"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    }
+  ],
+  "translation": "I go from my house to the library. I read a book at the library. After that, I buy a meal at the supermarket. There is a bank near the hospital."
+}

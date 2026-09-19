@@ -1,0 +1,201 @@
+{
+  "id": "story-07",
+  "title": "山と川",
+  "level": "n5",
+  "stage": 4,
+  "tokens": [
+    {
+      "surface": "この",
+      "furigana": "この",
+      "romaji": "kono",
+      "dictForm": "この",
+      "pos": "determiner",
+      "gloss": "this (+noun)"
+    },
+    {
+      "surface": "山",
+      "furigana": "やま",
+      "romaji": "yama",
+      "dictForm": "山",
+      "pos": "noun",
+      "gloss": "mountain"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "高い",
+      "furigana": "たかい",
+      "romaji": "takai",
+      "dictForm": "高い",
+      "pos": "adjective",
+      "gloss": "high / expensive"
+    },
+    {
+      "surface": "です",
+      "furigana": "です",
+      "romaji": "desu",
+      "dictForm": "です",
+      "pos": "copula",
+      "gloss": "polite ending"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "山",
+      "furigana": "やま",
+      "romaji": "yama",
+      "dictForm": "山",
+      "pos": "noun",
+      "gloss": "mountain"
+    },
+    {
+      "surface": "の",
+      "furigana": "の",
+      "romaji": "no",
+      "dictForm": "の",
+      "pos": "particle",
+      "gloss": "possessive marker"
+    },
+    {
+      "surface": "近い",
+      "furigana": "ちかい",
+      "romaji": "chikai",
+      "dictForm": "近い",
+      "pos": "adjective",
+      "gloss": "near / close"
+    },
+    {
+      "surface": "川",
+      "furigana": "かわ",
+      "romaji": "kawa",
+      "dictForm": "川",
+      "pos": "noun",
+      "gloss": "river"
+    },
+    {
+      "surface": "に",
+      "furigana": "に",
+      "romaji": "ni",
+      "dictForm": "に",
+      "pos": "particle",
+      "gloss": "to / at / in"
+    },
+    {
+      "surface": "あります",
+      "furigana": "あります",
+      "romaji": "arimasu",
+      "dictForm": "あります",
+      "pos": "verb",
+      "gloss": "there is (thing)"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "今日",
+      "furigana": "きょう",
+      "romaji": "kyou",
+      "dictForm": "今日",
+      "pos": "noun",
+      "gloss": "today"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "天気",
+      "furigana": "てんき",
+      "romaji": "tenki",
+      "dictForm": "天気",
+      "pos": "noun",
+      "gloss": "weather"
+    },
+    {
+      "surface": "が",
+      "furigana": "が",
+      "romaji": "ga",
+      "dictForm": "が",
+      "pos": "particle",
+      "gloss": "subject marker"
+    },
+    {
+      "surface": "良い",
+      "furigana": "いい",
+      "romaji": "ii",
+      "dictForm": "良い",
+      "pos": "adjective",
+      "gloss": "good"
+    },
+    {
+      "surface": "です",
+      "furigana": "です",
+      "romaji": "desu",
+      "dictForm": "です",
+      "pos": "copula",
+      "gloss": "polite ending"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "雨",
+      "furigana": "あめ",
+      "romaji": "ame",
+      "dictForm": "雨",
+      "pos": "noun",
+      "gloss": "rain"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "ありません",
+      "furigana": "ありません",
+      "romaji": "arimasen",
+      "dictForm": "ありません",
+      "pos": "verb",
+      "gloss": "there isn't"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    }
+  ],
+  "translation": "This mountain is tall. There is a river near the mountain. Today the weather is good. There is no rain."
+}

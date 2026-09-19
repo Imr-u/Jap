@@ -1,21 +1,209 @@
 {
   "id": "story-02",
-  "title": "朝ごはん",
+  "title": "家族",
   "level": "n5",
   "stage": 1,
   "tokens": [
-    { "surface": "毎朝", "furigana": "まいあさ", "romaji": "maiasa", "dictForm": "毎朝", "pos": "noun", "gloss": "every morning" },
-    { "surface": "、", "furigana": "", "romaji": "", "dictForm": "、", "pos": "punct", "gloss": "" },
-    { "surface": "私", "furigana": "わたし", "romaji": "watashi", "dictForm": "私", "pos": "pronoun", "gloss": "I / me" },
-    { "surface": "は", "furigana": "は", "romaji": "wa", "dictForm": "は", "pos": "particle", "gloss": "topic marker" },
-    { "surface": "パン", "furigana": "パン", "romaji": "pan", "dictForm": "パン", "pos": "noun", "gloss": "bread" },
-    { "surface": "を", "furigana": "を", "romaji": "wo", "dictForm": "を", "pos": "particle", "gloss": "object marker" },
-    { "surface": "食べます", "furigana": "たべます", "romaji": "tabemasu", "dictForm": "食べる", "pos": "verb", "gloss": "to eat (polite)" },
-    { "surface": "。", "furigana": "", "romaji": "", "dictForm": "。", "pos": "punct", "gloss": "" },
-    { "surface": "コーヒー", "furigana": "コーヒー", "romaji": "koohii", "dictForm": "コーヒー", "pos": "noun", "gloss": "coffee" },
-    { "surface": "も", "furigana": "も", "romaji": "mo", "dictForm": "も", "pos": "particle", "gloss": "also / too" },
-    { "surface": "飲みます", "furigana": "のみます", "romaji": "nomimasu", "dictForm": "飲む", "pos": "verb", "gloss": "to drink (polite)" },
-    { "surface": "。", "furigana": "", "romaji": "", "dictForm": "。", "pos": "punct", "gloss": "" }
+    {
+      "surface": "私",
+      "furigana": "わたし",
+      "romaji": "watashi",
+      "dictForm": "私",
+      "pos": "pronoun",
+      "gloss": "I / me"
+    },
+    {
+      "surface": "の",
+      "furigana": "の",
+      "romaji": "no",
+      "dictForm": "の",
+      "pos": "particle",
+      "gloss": "possessive marker"
+    },
+    {
+      "surface": "家族",
+      "furigana": "かぞく",
+      "romaji": "kazoku",
+      "dictForm": "家族",
+      "pos": "noun",
+      "gloss": "family"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "父",
+      "furigana": "ちち",
+      "romaji": "chichi",
+      "dictForm": "父",
+      "pos": "noun",
+      "gloss": "father"
+    },
+    {
+      "surface": "と",
+      "furigana": "と",
+      "romaji": "to",
+      "dictForm": "と",
+      "pos": "particle",
+      "gloss": "and / with"
+    },
+    {
+      "surface": "母",
+      "furigana": "はは",
+      "romaji": "haha",
+      "dictForm": "母",
+      "pos": "noun",
+      "gloss": "mother"
+    },
+    {
+      "surface": "と",
+      "furigana": "と",
+      "romaji": "to",
+      "dictForm": "と",
+      "pos": "particle",
+      "gloss": "and / with"
+    },
+    {
+      "surface": "お兄さん",
+      "furigana": "おにいさん",
+      "romaji": "onii-san",
+      "dictForm": "お兄さん",
+      "pos": "noun",
+      "gloss": "older brother"
+    },
+    {
+      "surface": "です",
+      "furigana": "です",
+      "romaji": "desu",
+      "dictForm": "です",
+      "pos": "copula",
+      "gloss": "polite ending"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "母",
+      "furigana": "はは",
+      "romaji": "haha",
+      "dictForm": "母",
+      "pos": "noun",
+      "gloss": "mother"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "良い",
+      "furigana": "いい",
+      "romaji": "ii",
+      "dictForm": "良い",
+      "pos": "adjective",
+      "gloss": "good"
+    },
+    {
+      "surface": "人",
+      "furigana": "ひと",
+      "romaji": "hito",
+      "dictForm": "人",
+      "pos": "noun",
+      "gloss": "person"
+    },
+    {
+      "surface": "です",
+      "furigana": "です",
+      "romaji": "desu",
+      "dictForm": "です",
+      "pos": "copula",
+      "gloss": "polite ending"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "今日",
+      "furigana": "きょう",
+      "romaji": "kyou",
+      "dictForm": "今日",
+      "pos": "noun",
+      "gloss": "today"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "家族",
+      "furigana": "かぞく",
+      "romaji": "kazoku",
+      "dictForm": "家族",
+      "pos": "noun",
+      "gloss": "family"
+    },
+    {
+      "surface": "と",
+      "furigana": "と",
+      "romaji": "to",
+      "dictForm": "と",
+      "pos": "particle",
+      "gloss": "and / with"
+    },
+    {
+      "surface": "ご飯",
+      "furigana": "ごはん",
+      "romaji": "gohan",
+      "dictForm": "ご飯",
+      "pos": "noun",
+      "gloss": "meal / rice"
+    },
+    {
+      "surface": "を",
+      "furigana": "を",
+      "romaji": "wo",
+      "dictForm": "を",
+      "pos": "particle",
+      "gloss": "object marker"
+    },
+    {
+      "surface": "食べます",
+      "furigana": "たべます",
+      "romaji": "tabemasu",
+      "dictForm": "食べます",
+      "pos": "verb",
+      "gloss": "to eat"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    }
   ],
-  "translation": "Every morning I eat bread. I also drink coffee."
+  "translation": "My family is my father, mother, and older brother. My mother is a good person. Today I eat a meal with my family."
 }

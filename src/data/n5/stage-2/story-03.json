@@ -1,0 +1,201 @@
+{
+  "id": "story-03",
+  "title": "赤いりんご",
+  "level": "n5",
+  "stage": 2,
+  "tokens": [
+    {
+      "surface": "それ",
+      "furigana": "それ",
+      "romaji": "sore",
+      "dictForm": "それ",
+      "pos": "pronoun",
+      "gloss": "that"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "私",
+      "furigana": "わたし",
+      "romaji": "watashi",
+      "dictForm": "私",
+      "pos": "pronoun",
+      "gloss": "I / me"
+    },
+    {
+      "surface": "の",
+      "furigana": "の",
+      "romaji": "no",
+      "dictForm": "の",
+      "pos": "particle",
+      "gloss": "possessive marker"
+    },
+    {
+      "surface": "手",
+      "furigana": "て",
+      "romaji": "te",
+      "dictForm": "手",
+      "pos": "noun",
+      "gloss": "hand"
+    },
+    {
+      "surface": "です",
+      "furigana": "です",
+      "romaji": "desu",
+      "dictForm": "です",
+      "pos": "copula",
+      "gloss": "polite ending"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "手",
+      "furigana": "て",
+      "romaji": "te",
+      "dictForm": "手",
+      "pos": "noun",
+      "gloss": "hand"
+    },
+    {
+      "surface": "で",
+      "furigana": "で",
+      "romaji": "de",
+      "dictForm": "で",
+      "pos": "particle",
+      "gloss": "at / by means of"
+    },
+    {
+      "surface": "赤い",
+      "furigana": "あかい",
+      "romaji": "akai",
+      "dictForm": "赤い",
+      "pos": "adjective",
+      "gloss": "red"
+    },
+    {
+      "surface": "りんご",
+      "furigana": "りんご",
+      "romaji": "ringo",
+      "dictForm": "りんご",
+      "pos": "noun",
+      "gloss": "apple"
+    },
+    {
+      "surface": "を",
+      "furigana": "を",
+      "romaji": "wo",
+      "dictForm": "を",
+      "pos": "particle",
+      "gloss": "object marker"
+    },
+    {
+      "surface": "食べます",
+      "furigana": "たべます",
+      "romaji": "tabemasu",
+      "dictForm": "食べます",
+      "pos": "verb",
+      "gloss": "to eat"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "りんご",
+      "furigana": "りんご",
+      "romaji": "ringo",
+      "dictForm": "りんご",
+      "pos": "noun",
+      "gloss": "apple"
+    },
+    {
+      "surface": "は",
+      "furigana": "は",
+      "romaji": "wa",
+      "dictForm": "は",
+      "pos": "particle",
+      "gloss": "topic marker"
+    },
+    {
+      "surface": "二つ",
+      "furigana": "ふたつ",
+      "romaji": "futatsu",
+      "dictForm": "二つ",
+      "pos": "number",
+      "gloss": "two (things)"
+    },
+    {
+      "surface": "あります",
+      "furigana": "あります",
+      "romaji": "arimasu",
+      "dictForm": "あります",
+      "pos": "verb",
+      "gloss": "there is (thing)"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    },
+    {
+      "surface": "黒い",
+      "furigana": "くろい",
+      "romaji": "kuroi",
+      "dictForm": "黒い",
+      "pos": "adjective",
+      "gloss": "black"
+    },
+    {
+      "surface": "猫",
+      "furigana": "ねこ",
+      "romaji": "neko",
+      "dictForm": "猫",
+      "pos": "noun",
+      "gloss": "cat"
+    },
+    {
+      "surface": "も",
+      "furigana": "も",
+      "romaji": "mo",
+      "dictForm": "も",
+      "pos": "particle",
+      "gloss": "also / too"
+    },
+    {
+      "surface": "います",
+      "furigana": "います",
+      "romaji": "imasu",
+      "dictForm": "います",
+      "pos": "verb",
+      "gloss": "there is (living thing)"
+    },
+    {
+      "surface": "。",
+      "furigana": "",
+      "romaji": "",
+      "dictForm": "。",
+      "pos": "punct",
+      "gloss": ""
+    }
+  ],
+  "translation": "That is my hand. I eat a red apple with my hand. There are two apples. There is also a black cat."
+}
